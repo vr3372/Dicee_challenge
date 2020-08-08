@@ -17,10 +17,10 @@ function changePic() {
     playerTwo.innerHTML = "player 2 wins";
     playerOne.innerHTML = "player 1";
   } else if (rannum == 2) {
-    curImage.src = two;
-    nesImage.src = four;
-    playerTwo.innerHTML = "player 2 wins";
-    playerOne.innerHTML = "player 1";
+    curImage.src = four;
+    nesImage.src = two;
+    playerTwo.innerHTML = "player 2";
+    playerOne.innerHTML = "player 1 wins";
   } else if (rannum == 3) {
     curImage.src = three;
     nesImage.src = five;
@@ -32,10 +32,10 @@ function changePic() {
     playerOne.innerHTML = "player 1 wins";
     playerTwo.innerHTML = "player 2";
   } else if (rannum == 5) {
-    ccurImage.src = five;
-    nesImage.src = one;
-    playerOne.innerHTML = "player 1 wins";
-    playerTwo.innerHTML = "player 2";
+    ccurImage.src = one;
+    nesImage.src = three;
+    playerOne.innerHTML = "player 1";
+    playerTwo.innerHTML = "player 2 wins";
   } else if (rannum == 6) {
     curImage.src = six;
     nesImage.src = three;

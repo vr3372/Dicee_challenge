@@ -34,26 +34,30 @@ h1 {
 }
 
 img {
-  padding: 0 40px;
+  padding: 0 5%;
 }
 /* button*/
 .btn {
-  padding-top: 20px;
+  padding-top: 2%;
 }
 .press {
   color: #fff;
   padding: 5px 30px;
   border-radius: 20px;
-  border-style: none;
-  background-color: darkslategray;
+  background-color: #333333;
   font-weight: bold;
   font-size: 1.4rem;
-  outline-style: none;
   font-family: "Dancing Script", cursive;
+  border: 1px solid rgb(100, 97, 97);
+  outline-style: none;
 }
 
 .press:hover {
-  box-shadow: 0 0 3px wheat;
+  box-shadow: 0 0 4px grey;
+}
+
+.press:active {
+  transform: scale(0.95);
 }
 
 footer {
@@ -72,10 +76,10 @@ span {
 
 @media screen and (max-width: 700px) {
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Dancing Script", cursive;
     font-weight: 900;
-    margin: 10px 0 0px;
+    margin: 20% 0 10%;
     color: ivory;
   }
 
@@ -91,20 +95,20 @@ span {
 
   .player1 {
     display: inline;
-    padding: 0 10% 0 10%;
+    padding: 0 8% 0 5%;
   }
   .player2 {
     display: inline;
-    padding: 0 10% 0 10%;
+    padding: 0 5% 0 8%;
   }
 
   img {
     display: inline-block;
     padding: 0 10px;
-    width: 40%;
+    width: 30%;
   }
   footer {
-    padding: 20px 0 0 0;
+    padding: 10% 0 0 0;
     margin-top: 0px;
   }
   .btn {
