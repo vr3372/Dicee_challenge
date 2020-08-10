@@ -22,10 +22,12 @@ function changePic() {
     winner.textContent = "Player 1 wins!";
     curImage.src = images[firstDice];
     nesImage.src = images[secondDice];
+    document.querySelector(".applause").play();
   } else if (secondDice > firstDice) {
     winner.textContent = "Player 2 wins!";
     curImage.src = images[firstDice];
     nesImage.src = images[secondDice];
+    document.querySelector(".applause").play();
   } else {
     return "no image";
   }
