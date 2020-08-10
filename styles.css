@@ -112,3 +112,8 @@ span {
     padding-top: 20px;
   }
 }
+/* javascript*/
+.javaStylesFirst {
+  color: yellow;
+  transform: scale(1.4);
+}
